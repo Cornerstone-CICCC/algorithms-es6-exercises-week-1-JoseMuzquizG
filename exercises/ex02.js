@@ -15,18 +15,18 @@ let musicians = 4
 if (musicians === 0) {
     console.log("Not a group")
 }
-if (musicians === 1) {
+else if (musicians === 1) {
     console.log("Solo")
 }
-if (musicians === 2) {
+else if (musicians === 2) {
     console.log("Duet")
 }
-if (musicians === 3) {
+else if (musicians === 3) {
     console.log("Trio")
 }
-if (musicians === 4) {
+else if (musicians === 4) {
     console.log("Quartet")
 }
-if (musicians >= 5) {
+else if (musicians >= 5) {
     console.log("This is a big group")
 }
