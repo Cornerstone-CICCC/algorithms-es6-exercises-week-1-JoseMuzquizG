@@ -6,7 +6,7 @@ Write an if…else statement that:
 Hint: Use the %(modulo) operator to determine is a number is even or odd.
 */
 
-const number = 65462; // Change your number to test your if statement
+const number = 5; // Change your number to test your if statement
 
 if (number % 2 === 0) {
     console.log("The number is even")
