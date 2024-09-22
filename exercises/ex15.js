@@ -10,7 +10,7 @@ The ageCalculator function should return a string explaining how old the person 
 
 const ageCalculator = function() {
     let name = "Milo"
-    let yearOfBirth = 1989
+    let yearOfBirth = 2007
     let currentYear = 2024
     var age = currentYear - yearOfBirth
 
