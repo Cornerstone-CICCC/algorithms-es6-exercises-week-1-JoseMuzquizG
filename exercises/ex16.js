@@ -28,10 +28,17 @@ You will need to call this makeLine() function in buildTriangle().
 This will be the most complicated program you've written yet, so take some time thinking through the problem before diving into the code. What tools will you need from your JavaScript tool belt? Professionals plan out their code before writing anything. Think through the steps your code will need to take and write them down in order. Then go through your list and convert each step into actual code. Good luck!
 */
 
-function makeLine(length) {
-    var line = "";
+function buildTriangle(length) {
+  var column = "\n"
     for (var j = 1; j <= length; j++) {
-      line += "* "
+      let line = ""
+      for (let i = 1; i <= j; i++) {
+        line += "* "
+      }
+      column += line + "\n" 
     }
-    return line + "\n";
-}
+    return column;
+  }
+
+let triangle = buildTriangle(5);
+console.log(triangle)
