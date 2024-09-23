@@ -35,9 +35,9 @@ XL	    24"	    31"	    8.88"
 3XL	    28"	    34"	    10.13"
 */
 
-const shirtLength = 28
-const shirtWidth = 19
-const shirtSleeve = 8.28
+const shirtLength = 34
+const shirtWidth = 28
+const shirtSleeve = 10.13
 
 if ((shirtLength === 28) && (shirtSleeve >= 8.13 && shirtSleeve < 8.38) && (shirtWidth >= 18 && shirtWidth < 20)){
     console.log("You need a shirt size S")
